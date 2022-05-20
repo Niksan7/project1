@@ -1,0 +1,138 @@
+body {
+    /*max-width: 1000px;  ограничение максимальной ширины */ 
+    margin: 0px;
+	padding:0px;
+	background:url(fon.jpg);
+	background-size:100%;
+	font: 14px 'Verdana';
+	
+}
+
+/* для всех блоков внутри body изменяем алгоритм расчета ширины блоков и добавляем все блокам поля 10px */
+body div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+}
+	.logotip{
+		text-align:center;
+		background: #438799db;
+	}
+		.logotip img{
+		width:100px;
+		height:100px;
+	}
+
+	.header a{
+		color: #121a69;
+		font-size:19px;
+		text-decoration: none;
+	}
+	.header a:hover {
+		color: #051efc; 
+	}
+	.header {
+		margin-top:-30px;
+		margin-left:70%;
+		margin-right: 0%;
+		float:right;
+		text-align: center;
+		padding-left: 26px;
+	}
+	.wellcome{
+		text-align:center;
+		background: #34c0b7c4;
+	}
+	.wellcome img{
+		width:105px;
+		height:105px;
+		margin: 43px;
+	}
+	.wellcome p{
+		font-size:20px;
+	}
+	.pressed-button {
+	  text-decoration: none;
+	  display: inline-block;
+	  padding: 12px 20px;
+	  margin: 10px 15px;
+	  margin-top:-17px;
+	  border-radius: 30px;
+	  background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+	  background-position: 100% 0;
+	  background-size: 200% 200%;
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 24px;
+	  font-weight: 300;
+	  color: white;
+	  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+	  transition: .5s;
+	}
+	.pressed-button:hover {
+	  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+	  background-position: 0 0;
+	}
+	.buttons {
+	  text-decoration: none;
+	  display: inline-block;
+	  padding: 12px 20px;
+	  margin: 5px 10px;
+	  margin-top:-35px;
+	  border-radius: 30px;
+	  background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+	  background-position: 100% 0;
+	  background-size: 200% 200%;
+	  font-family: 'Montserrat', sans-serif;
+	  font-size: 15px;
+	  float:left;
+	  font-weight: 300;
+	  
+	  color: white;
+	  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+	  transition: .5s;
+	}
+	.buttons:hover {
+	  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+	  background-position: 0 0;
+	}
+
+	.comanda img{
+		border-radius:50%;
+	}
+	.comanda2 img{
+		border-radius:50%;
+	}
+
+	.opisanie{	
+		text-align:center;
+		background: #34c0b7c4;
+	}
+	.opisanie img{
+		width:140px;
+		height:140px;
+	}
+	.raspisanie{
+		width:100%;
+		height:auto;
+		text-align:center;
+		background: #10bdcae6;
+		float:left;
+	}
+	.blok:hover {
+  outline: 2px solid black;
+  cursor: pointer;
+}
+	.blok{
+	box-shadow: 0 0 10px #444;
+	border-radius:10px;
+	outline: 1px solid black;
+		float:left;
+		margin:10px;
+		padding:5%;
+	}
+	.blok img{
+		width:50px;
+		height:50px;
+		float:left;
+	}
