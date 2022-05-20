@@ -2,7 +2,7 @@ body {
     /*max-width: 1000px;  îãðàíè÷åíèå ìàêñèìàëüíîé øèðèíû */ 
     margin: 0px;
 	padding:0px;
-	background:url(fon.jpg);
+	background:url(fon.jpg) no-repeat;
 	background-size:100%;
 	font: 14px 'Verdana';
 	
