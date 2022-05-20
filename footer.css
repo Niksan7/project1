@@ -8,6 +8,9 @@
     float: left;
     background: #438799db;
 	}
+	.contacts{
+		text-align:center;
+	}
 	.contacts p{
 		float:left;
 		padding-left:10%;
