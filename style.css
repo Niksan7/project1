@@ -1,5 +1,5 @@
 body {
-    /*max-width: 1000px;  ограничение максимальной ширины */ 
+    /*max-width: 1000px;  Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГҐ Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г®Г© ГёГЁГ°ГЁГ­Г» */ 
     margin: 0px;
 	padding:0px;
 	background:url(fon.jpg);
@@ -8,7 +8,7 @@ body {
 	
 }
 
-/* для всех блоков внутри body изменяем алгоритм расчета ширины блоков и добавляем все блокам поля 10px */
+/* Г¤Г«Гї ГўГ±ГҐГµ ГЎГ«Г®ГЄГ®Гў ГўГ­ГіГІГ°ГЁ body ГЁГ§Г¬ГҐГ­ГїГҐГ¬ Г Г«ГЈГ®Г°ГЁГІГ¬ Г°Г Г±Г·ГҐГІГ  ГёГЁГ°ГЁГ­Г» ГЎГ«Г®ГЄГ®Гў ГЁ Г¤Г®ГЎГ ГўГ«ГїГҐГ¬ ГўГ±ГҐ ГЎГ«Г®ГЄГ Г¬ ГЇГ®Г«Гї 10px */
 body div {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -111,6 +111,8 @@ body div {
 	.opisanie img{
 		width:140px;
 		height:140px;
+		margin-left: 40%;
+    		margin-right: 40%;
 	}
 	.raspisanie{
 		width:100%;
