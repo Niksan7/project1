@@ -12,6 +12,15 @@
 
 
 	</style>
+	<script>
+		function change1(){ // Функция изменяет текст
+	document.getElementById('text').innerHTML = 'Металлоконструкции — прочные, долговечные и надежные. Потому они пользуются в сфере строительства...';
+}
+ 
+		function change0(){ // Функция возвращает текст в исходный вид
+	document.getElementById('text').innerHTML = 'Работаем для вас!';
+}
+</script>
 </head>
 <body>
 
@@ -42,7 +51,7 @@
 		<div class="raspisanie">
 			<h2>Расписание мероприятий</h2>
 			
-			<div class="blok">
+			<div class="blok" onmousemove="change0();">
 				<p><b><i>вебинар</i></b></p>
 				<p><b>15 ИЮНЯ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12:00-13:00</b></p>
 				<p><i>среда &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;бесплатно</i></p>
@@ -51,6 +60,7 @@
 				<img src="prepod1.png" alt="" align="">
 				<br>
 				<p>Екатерина Литвинова</p>
+				<p id="text" onmousemove="change1();">Работаем для вас!</p>
 			</div>
 			<div class="blok">
 				<p><b><i>вебинар</i></b></p>
